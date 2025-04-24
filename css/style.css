@@ -49,7 +49,7 @@
 * 1. miscelnious styles 
 ***************************/
 body {
-  font-family: "Nunito";
+  font-family: 'Nunito';
   font-size: 14px;
   line-height: 24px;
   color: #222222;
@@ -94,10 +94,10 @@ a:visited {
 .sec-title span {
   display: block;
   text-transform: uppercase;
-  color: #0057B3;
+  color: #0057b3;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   margin-bottom: 5px;
 }
 
@@ -127,11 +127,11 @@ a:visited {
 
 .sec-title.light span,
 .sec-title.light h2 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .sec-title.light span:before {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .thm-btn {
@@ -140,26 +140,26 @@ a:visited {
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #ee3234;
   font-size: 12px;
   font-weight: 800;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   border-radius: 30px;
   padding: 18px 39.5px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .thm-btn:hover {
   background: #001328;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
 }
 
 .bootstrap-select .dropdown-menu {
@@ -197,8 +197,8 @@ a:visited {
   font-weight: 600;
   padding: 9px 20px;
   color: #000;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .bootstrap-select .dropdown-menu > li > a:hover {
@@ -270,8 +270,8 @@ a:visited {
   right: 20px;
   z-index: 99;
   text-align: center;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   display: none;
 }
 
@@ -286,11 +286,13 @@ a:visited {
 }
 
 /* hidding google logos from map */
-a[href^="http://maps.google.com/maps"] {
+a[href^="http://maps.google.com/maps"]
+{
   display: none !important;
 }
 
-a[href^="https://maps.google.com/maps"] {
+a[href^="https://maps.google.com/maps"]
+{
   display: none !important;
 }
 
@@ -314,7 +316,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .top-bar .left-content p {
   margin: 0;
-  color: #E7F2FF;
+  color: #e7f2ff;
   font-size: 13px;
   font-weight: 600;
 }
@@ -324,7 +326,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .top-bar .left-content p a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
   text-decoration: underline;
 }
@@ -354,9 +356,9 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .top-bar .right-content ul li a {
-  color: #E8F3FF;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  color: #e8f3ff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .top-bar .right-content ul li a:hover {
@@ -378,15 +380,15 @@ a[href^="https://maps.google.com/maps"] {
   height: 100vh;
   z-index: 9999;
   max-width: 530px;
-  background: #FFFFFF;
+  background: #ffffff;
   overflow: auto;
   padding-left: 80px;
   padding-right: 80px;
   text-align: center;
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -453,7 +455,7 @@ a[href^="https://maps.google.com/maps"] {
   color: #fff;
   font-size: 26px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
   margin-right: 20px;
 }
 
@@ -461,7 +463,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #ee3234;
   width: 100%;
   border-radius: 6px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 600;
   display: block;
@@ -469,16 +471,16 @@ a[href^="https://maps.google.com/maps"] {
   padding: 38px 0;
   padding-left: 85px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
   text-align: left;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .hidden-sidebar .sidebar-content a.download-btn.two {
   background: #0f6fd5;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
   margin-top: 30px;
 }
 
@@ -514,7 +516,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .search_area .search_box_inner h3 {
   padding-bottom: 20px;
-  font-family: "Hind", sans-serif;
+  font-family: 'Hind', sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
@@ -537,7 +539,7 @@ a[href^="https://maps.google.com/maps"] {
   box-shadow: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
-  font-family: "Hind", sans-serif;
+  font-family: 'Hind', sans-serif;
   font-size: 24px;
   font-weight: normal;
 }
@@ -732,19 +734,19 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .header-navigation .container .right-side-box a.signin-btn {
-  background: #FFFFFF;
+  background: #ffffff;
   display: inline-block;
   vertical-align: middle;
   color: #001328;
   font-size: 12px;
   font-weight: 800;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   letter-spacing: 0.04em;
   border-radius: 25px;
   text-transform: uppercase;
   padding: 13px 40px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .header-navigation .container .right-side-box a.signin-btn:hover {
@@ -790,10 +792,10 @@ a[href^="https://maps.google.com/maps"] {
 .header-navigation ul.navigation-box > li > a {
   font-weight: 700;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   position: relative;
 }
 
@@ -817,13 +819,13 @@ a[href^="https://maps.google.com/maps"] {
   padding: 15px 0px;
   text-align: left;
   list-style: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-clip: padding-box;
   opacity: 0;
   border-radius: 7px;
   visibility: hidden;
-  -webkit-transition: opacity .4s ease, visibility .4s ease;
-  transition: opacity .4s ease, visibility .4s ease;
+  -webkit-transition: opacity 0.4s ease, visibility 0.4s ease;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
   -webkit-box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
 }
@@ -836,7 +838,7 @@ a[href^="https://maps.google.com/maps"] {
 .header-navigation ul.navigation-box > li > ul.sub-menu.center-align {
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (min-width: 1200px) {
@@ -852,8 +854,8 @@ a[href^="https://maps.google.com/maps"] {
 .header-navigation ul.navigation-box > li > ul.sub-menu > li {
   display: block;
   position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .header-navigation ul.navigation-box > li > ul.sub-menu > li > a {
@@ -865,8 +867,8 @@ a[href^="https://maps.google.com/maps"] {
   line-height: 26px;
   white-space: nowrap;
   position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .header-navigation ul.navigation-box > li > ul.sub-menu > li > a:after {
   font-family: 'FontAwesome';
@@ -875,12 +877,17 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 40px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > a:only-child:after {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > a:only-child:after {
   display: none;
 }
 
@@ -914,13 +921,18 @@ a[href^="https://maps.google.com/maps"] {
   opacity: 0;
   visibility: hidden;
   border-radius: 7px;
-  -webkit-transition: opacity .4s ease, visibility .4s ease;
-  transition: opacity .4s ease, visibility .4s ease;
+  -webkit-transition: opacity 0.4s ease, visibility 0.4s ease;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
   -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.2);
 }
 
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu.right-align {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > ul.sub-menu.right-align {
   left: auto;
   right: 100%;
 }
@@ -930,17 +942,35 @@ a[href^="https://maps.google.com/maps"] {
     display: block !important;
   }
 }
-.header-navigation ul.navigation-box > li > ul.sub-menu > li:hover > ul.sub-menu {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li:hover
+  > ul.sub-menu {
   opacity: 1;
   visibility: visible;
 }
 
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu > li {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > ul.sub-menu
+  > li {
   display: block;
   position: relative;
 }
 
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu > li > a {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > ul.sub-menu
+  > li
+  > a {
   font-size: 15px;
   color: #798593;
   font-weight: 700;
@@ -949,30 +979,57 @@ a[href^="https://maps.google.com/maps"] {
   line-height: 26px;
   white-space: nowrap;
   position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu > li > a:after {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > ul.sub-menu
+  > li
+  > a:after {
   font-family: 'FontAwesome';
   content: '\f061';
   font-size: 10px;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 40px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.header-navigation ul.navigation-box > li > ul.sub-menu > li > ul.sub-menu > li > a:only-child:after {
+.header-navigation
+  ul.navigation-box
+  > li
+  > ul.sub-menu
+  > li
+  > ul.sub-menu
+  > li
+  > a:only-child:after {
   display: none;
 }
 
-.header-navigation ul.navigation-box > li > .sub-menu > li > ul.sub-menu li:hover {
+.header-navigation
+  ul.navigation-box
+  > li
+  > .sub-menu
+  > li
+  > ul.sub-menu
+  li:hover {
   background: #f1f7fc;
 }
 
-.header-navigation ul.navigation-box > li > .sub-menu > li > ul.sub-menu li:hover > a {
+.header-navigation
+  ul.navigation-box
+  > li
+  > .sub-menu
+  > li
+  > ul.sub-menu
+  li:hover
+  > a {
   color: #0f6fd5;
   position: relative;
   -webkit-transform: translateX(5px);
@@ -1039,14 +1096,20 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 16px;
 }
 
-.site-header.style-two .header-navigation .container .right-side-box .social a + a {
+.site-header.style-two
+  .header-navigation
+  .container
+  .right-side-box
+  .social
+  a
+  + a {
   margin-left: 20px;
 }
 
 .site-header.style-two .header-navigation.stricky-fixed {
   background: #fff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
 }
 
 .site-header.home-three .header-navigation .main-navigation {
@@ -1081,7 +1144,7 @@ a[href^="https://maps.google.com/maps"] {
 .site-header.home-four {
   background: #ffffff;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
-          box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
+  box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
 }
 .site-header.home-four .header-navigation ul.navigation-box > li > a,
 .site-header.home-four .right-side-box .sidemenu li a {
@@ -1090,7 +1153,7 @@ a[href^="https://maps.google.com/maps"] {
 .site-header.home-four .header-navigation.stricky-fixed {
   background: #ffffff;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
-          box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
+  box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.05);
 }
 
 .site-header.style-five .header-navigation {
@@ -1108,7 +1171,7 @@ a[href^="https://maps.google.com/maps"] {
 .site-header.style-five .header-navigation.stricky-fixed {
   background: #001328;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
 }
 
 .site-header.style-six .header-navigation .container {
@@ -1123,14 +1186,31 @@ a[href^="https://maps.google.com/maps"] {
   vertical-align: middle;
   margin-left: 18px;
 }
-.site-header.style-six .header-navigation .container .right-side-box .sidemenu li {
+.site-header.style-six
+  .header-navigation
+  .container
+  .right-side-box
+  .sidemenu
+  li {
   display: inline-block;
   vertical-align: middle;
 }
-.site-header.style-six .header-navigation .container .right-side-box .sidemenu li + li {
+.site-header.style-six
+  .header-navigation
+  .container
+  .right-side-box
+  .sidemenu
+  li
+  + li {
   margin-left: 18px;
 }
-.site-header.style-six .header-navigation .container .right-side-box .sidemenu li a {
+.site-header.style-six
+  .header-navigation
+  .container
+  .right-side-box
+  .sidemenu
+  li
+  a {
   font-size: 14px;
   color: #fff;
 }
@@ -1145,7 +1225,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   right: 80px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 99;
 }
 .side-scroller-dots ul {
@@ -1162,22 +1242,34 @@ a[href^="https://maps.google.com/maps"] {
   height: 10px;
   border-radius: 50%;
   background: #001328;
-  opacity: .4;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  opacity: 0.4;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .side-scroller-dots ul li.current a span {
   opacity: 1;
 }
-.side-scroller-dots #menu[data-section-class*='minimal-bootstrap-carousel'] li a span,
+.side-scroller-dots
+  #menu[data-section-class*='minimal-bootstrap-carousel']
+  li
+  a
+  span,
 .side-scroller-dots #menu[data-section-class*='services'] li a span,
 .side-scroller-dots #menu[data-section-class*='payonline-sales'] li a span {
   background: #fff;
   opacity: 1;
 }
-.side-scroller-dots #menu[data-section-class*='minimal-bootstrap-carousel'] li.current a span,
+.side-scroller-dots
+  #menu[data-section-class*='minimal-bootstrap-carousel']
+  li.current
+  a
+  span,
 .side-scroller-dots #menu[data-section-class*='services'] li.current a span,
-.side-scroller-dots #menu[data-section-class*='payonline-sales'] li.current a span {
+.side-scroller-dots
+  #menu[data-section-class*='payonline-sales']
+  li.current
+  a
+  span {
   background: #ee3234;
 }
 
@@ -1223,7 +1315,7 @@ a[href^="https://maps.google.com/maps"] {
 #minimal-bootstrap-carousel .carousel-caption .container .box.valign-middle {
   vertical-align: middle;
 }
-#minimal-bootstrap-carousel [class*=carousel-control] {
+#minimal-bootstrap-carousel [class*='carousel-control'] {
   background: none;
   width: 70px;
   height: 60px;
@@ -1252,7 +1344,7 @@ a[href^="https://maps.google.com/maps"] {
   }
 }
 @media (max-width: 667px) {
-  #minimal-bootstrap-carousel [class*=carousel-control] {
+  #minimal-bootstrap-carousel [class*='carousel-control'] {
     width: 30px;
     height: 30px;
     font-size: 15px;
@@ -1260,7 +1352,7 @@ a[href^="https://maps.google.com/maps"] {
   }
 }
 @media (max-width: 480px) {
-  #minimal-bootstrap-carousel [class*=carousel-control] {
+  #minimal-bootstrap-carousel [class*='carousel-control'] {
     width: 40px;
     height: 40px;
     font-size: 17px;
@@ -1281,7 +1373,7 @@ a[href^="https://maps.google.com/maps"] {
   border-bottom-left-radius: 30px;
 }
 
-#minimal-bootstrap-carousel [class*=carousel-control]:hover {
+#minimal-bootstrap-carousel [class*='carousel-control']:hover {
   opacity: 1;
   background: #0f6fd5;
   color: #fff;
@@ -1314,8 +1406,8 @@ a[href^="https://maps.google.com/maps"] {
   color: #fff;
   font-weight: 700;
   letter-spacing: -0.06em;
-  -webkit-animation-delay: .5s;
-  animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .slider-content-style .content h2 {
   margin: 0;
@@ -1336,7 +1428,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #fff;
   color: #001328;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.3);
 }
 
 .slider-content-style-two {
@@ -1366,13 +1458,17 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0;
   margin-bottom: 25px;
 }
-.slider-content-style-two .cta-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.slider-content-style-two
+  .cta-form
+  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(
+    .input-group-btn
+  ) {
   width: 100%;
   max-width: 470px;
-  border: 2px solid #CCD7E0;
+  border: 2px solid #ccd7e0;
   border-radius: 30px;
   margin-bottom: 20px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .slider-content-style-two .cta-form .bootstrap-select > .dropdown-toggle {
   border: none !important;
@@ -1393,7 +1489,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 66px;
   height: 60px;
   text-align: center;
-  border-left: 2px solid #CCD7E0;
+  border-left: 2px solid #ccd7e0;
   position: absolute;
   top: 0;
   right: 0;
@@ -1433,7 +1529,7 @@ a[href^="https://maps.google.com/maps"] {
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  animation-delay: 2.5s;
   margin-right: 130px;
 }
 .slider-home-three.slider-content-style .btn-tag-line i {
@@ -1450,20 +1546,20 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   display: inline-block;
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 .slider-home-four.slider-content-style .content a.thm-btn {
   margin-top: 35px;
   background: #fff;
   color: #001328;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
 }
 .slider-home-four.slider-content-style .content a.thm-btn:hover {
   background: #0f6fd5;
   color: #fff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
 }
 .slider-home-four.slider-content-style .btn-tag-line {
   color: #001328;
@@ -1472,7 +1568,7 @@ a[href^="https://maps.google.com/maps"] {
   top: calc(100% + 20px);
   left: 50%;
   -webkit-transform: translateX(-80%);
-          transform: translateX(-80%);
+  transform: translateX(-80%);
   margin-top: 0px;
   width: 100%;
 }
@@ -1484,7 +1580,7 @@ a[href^="https://maps.google.com/maps"] {
   text-align: center;
   font-size: 30px;
   line-height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   display: -moz-flex;
   display: -ms-flex;
@@ -1493,17 +1589,17 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0 60px;
   position: absolute;
   top: 100%;
   right: 0;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 .slider-home-four.slider-content-style .rounded-box.thm-base-color-bg {
   background: #0f6fd5;
@@ -1517,13 +1613,13 @@ a[href^="https://maps.google.com/maps"] {
   background: #fff;
   color: #001328;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.2);
 }
 .slider-home-six.slider-content-style .content .thm-btn:hover {
   background: #0f6fd5;
   color: #fff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.2);
 }
 
 .slider-content-style-four h3,
@@ -1531,43 +1627,43 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0;
 }
 .slider-content-style-four h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 60px;
   line-height: 70px;
   font-weight: 800;
   margin-bottom: 20px;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .slider-content-style-four p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
   line-height: 34px;
   font-weight: bold;
   margin-bottom: 30px;
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 .slider-content-style-four .thm-btn {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #001328;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 30px rgba(0, 19, 40, 0.3);
   -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 .slider-content-style-four .thm-btn:hover {
   background: #001328;
   color: #fff;
   -webkit-box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.3);
-          box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.3);
 }
 .slider-content-style-four .video-button-box {
   display: block;
   width: 100%;
   text-align: right;
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
 }
 .slider-content-style-four .video-button-box a {
   display: block;
@@ -1586,8 +1682,8 @@ a[href^="https://maps.google.com/maps"] {
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .slider-content-style-four .video-button-box a i.fa-play:hover {
   color: #fff;
@@ -1599,8 +1695,8 @@ a[href^="https://maps.google.com/maps"] {
   left: 50%;
   width: 100%;
   -webkit-transform: translateX(-72%);
-          transform: translateX(-72%);
-  color: #FFFFFF;
+  transform: translateX(-72%);
+  color: #ffffff;
   font-family: 'Covered By Your Grace';
   font-size: 20px;
 }
@@ -1671,8 +1767,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   opacity: 0;
-  -webkit-transition: all .8s ease;
-  transition: all .8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .service-style-one .tab-title .icon-box {
@@ -1680,13 +1776,13 @@ a[href^="https://maps.google.com/maps"] {
   height: 150px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
-          box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
+  box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
   display: inline-block;
   text-align: center;
   position: relative;
   background: #ee3234;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .service-style-one .tab-title .icon-box:after {
@@ -1698,12 +1794,18 @@ a[href^="https://maps.google.com/maps"] {
   bottom: -1px;
   border-radius: 50%;
   background: #f1f7fc;
-  background: -webkit-gradient(linear, left top, right top, from(#f1f7fc), to(#ffffff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1f7fc),
+    to(#ffffff)
+  );
   background: linear-gradient(to right, #f1f7fc 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$thm_gray', endColorstr='#ffffff', GradientType=1);
   opacity: 1;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .service-style-one .tab-title .icon-box i {
@@ -1712,8 +1814,8 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   z-index: 10;
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .service-style-one .tab-title .icon-box:before {
@@ -1727,8 +1829,8 @@ a[href^="https://maps.google.com/maps"] {
   left: 50%;
   -webkit-transform: translate(-60%, -50%);
   transform: translate(-60%, -50%);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   z-index: 10;
 }
 
@@ -1743,7 +1845,7 @@ a[href^="https://maps.google.com/maps"] {
 .service-style-one .tab-title li a:hover .icon-box,
 .service-style-one .tab-title li a.active .icon-box {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
 }
 
 .service-style-one .tab-title li a:hover .icon-box i,
@@ -1766,11 +1868,11 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .service-style-one .single-tab-content {
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 6px;
   background: #ffffff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
   padding: 60px;
 }
 
@@ -1812,10 +1914,10 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 700;
   text-transform: uppercase;
   display: inline-block;
-  border-bottom: 2px solid #D5E1F5;
+  border-bottom: 2px solid #d5e1f5;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .service-style-one .single-tab-content .text-box a.read-more:hover {
@@ -1830,17 +1932,18 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-service-two {
   text-align: center;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 6px;
-  background: #FFFFFF;
+  background: #ffffff;
+  margin-bottom: 24px;
   padding: 63px 60px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-service-two:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
 }
 
 .single-service-two i {
@@ -1874,8 +1977,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-service-two .read-more:hover {
@@ -1891,8 +1994,8 @@ a[href^="https://maps.google.com/maps"] {
   background: #f1f7fc;
   border-radius: 7px;
   padding: 48px 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   display: block;
   overflow: hidden;
   margin-bottom: 40px;
@@ -1900,7 +2003,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-service-three:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.1);
 }
 
 .single-service-three:before {
@@ -1911,8 +2014,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-service-three i {
   font-size: 72px;
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-service-three h3 {
@@ -1924,8 +2027,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-service-three h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-service-three:hover i,
@@ -1954,14 +2057,14 @@ a[href^="https://maps.google.com/maps"] {
   min-height: 321px;
   border-radius: 7px;
   overflow: hidden;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-service-four:before {
   border-radius: 7px;
   background: #0f6fd5;
   -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
+  transform-origin: center bottom;
 }
 .single-service-four .inner-box {
   text-align: center;
@@ -1969,14 +2072,14 @@ a[href^="https://maps.google.com/maps"] {
 .single-service-four i {
   font-size: 72px;
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-service-four h3,
 .single-service-four p {
   margin: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-service-four h3 {
   font-size: 20px;
@@ -1985,8 +2088,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-service-four h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-service-four p {
   font-size: 16px;
@@ -2000,11 +2103,11 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-service-four:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
 }
 .single-service-four:hover:before {
   -webkit-transform-origin: center top;
-          transform-origin: center top;
+  transform-origin: center top;
 }
 .single-service-four:hover i,
 .single-service-four:hover h3 a,
@@ -2019,12 +2122,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 .service-style-five .image-box:hover > img {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 .service-style-five .image-box img {
   width: 100%;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -2041,15 +2144,15 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: rgba(0, 19, 40, 0.6);
   opacity: 0;
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   -webkit-transition: all 0.6s ease-in-out 0.3s;
   transition: all 0.6s ease-in-out 0.3s;
 }
@@ -2063,25 +2166,25 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 65px;
   height: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   color: #001328;
   font-size: 12px;
   line-height: 40px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .service-style-five .box a i.fa:hover {
   color: #fff;
-  background: #1371D6;
+  background: #1371d6;
 }
 .service-style-five .image-box:hover .box {
   opacity: 1;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .service-style-five .text-box {
   margin-top: 25px;
@@ -2094,8 +2197,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .service-style-five .text-box h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .service-style-five .text-box h3 a:hover {
   color: #0f6fd5;
@@ -2114,8 +2217,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .service-style-five .text-box .read-more:hover {
   color: #0f6fd5;
@@ -2135,17 +2238,18 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   padding-bottom: 35px;
 }
-.single-service-six:before, .single-service-six:after {
+.single-service-six:before,
+.single-service-six:after {
   content: '';
   width: 100%;
   background: #ffffff;
-  opacity: .1;
+  opacity: 0.1;
   height: 2px;
   position: absolute;
   bottom: 0;
   left: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-service-six:after {
   opacity: 1;
@@ -2195,7 +2299,7 @@ a[href^="https://maps.google.com/maps"] {
   left: 0;
   width: 100%;
   -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 .service-style-seven .service-style-seven-carousel .owl-nav {
   display: none;
@@ -2210,7 +2314,11 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0 2.5px;
   background: rgba(0, 19, 40, 0.4);
 }
-.service-style-seven .service-style-seven-carousel .owl-dots .owl-dot.active span {
+.service-style-seven
+  .service-style-seven-carousel
+  .owl-dots
+  .owl-dot.active
+  span {
   background: #0f6fd5;
 }
 
@@ -2226,18 +2334,24 @@ a[href^="https://maps.google.com/maps"] {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#001328), to(#0f6fd5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#001328),
+    to(#0f6fd5)
+  );
   background: linear-gradient(to bottom, #001328 0%, #0f6fd5 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001328', endColorstr='#0f6fd5', GradientType=0);
   /* IE6-9 */
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
-  opacity: .85;
+  transform-origin: bottom center;
+  opacity: 0.85;
 }
 .single-service-style-seven:hover:before {
   -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
 }
 .single-service-style-seven .img-box {
   width: 100%;
@@ -2280,8 +2394,8 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   text-decoration: underline;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   position: absolute;
   bottom: 75px;
   left: 60px;
@@ -2366,18 +2480,24 @@ a[href^="https://maps.google.com/maps"] {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#001328), to(#0f6fd5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#001328),
+    to(#0f6fd5)
+  );
   background: linear-gradient(to bottom, #001328 0%, #0f6fd5 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001328', endColorstr='#0f6fd5', GradientType=0);
   /* IE6-9 */
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
-  opacity: .85;
+  transform-origin: bottom center;
+  opacity: 0.85;
 }
 .single-service-style-eight:hover:before {
   -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
 }
 .single-service-style-eight .img-box {
   width: 100%;
@@ -2386,7 +2506,7 @@ a[href^="https://maps.google.com/maps"] {
 .single-service-style-eight .img-box > img {
   width: 100%;
   border-radius: 8px;
-  opacity: .5;
+  opacity: 0.5;
 }
 .single-service-style-eight .text-block {
   position: absolute;
@@ -2422,8 +2542,8 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   text-decoration: underline;
   line-height: 1em;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   position: absolute;
   bottom: 45px;
   left: 40px;
@@ -2446,7 +2566,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-solution-style-one {
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   padding: 36px 30px;
   border-radius: 6px;
   position: relative;
@@ -2461,7 +2581,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-solution-style-one:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
 }
 
 .single-solution-style-one .img-box {
@@ -2488,16 +2608,16 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-solution-style-one h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-solution-style-one span {
   color: #0f6fd5;
   font-size: 15px;
   font-weight: 700;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-solution-style-one .read-more {
@@ -2507,22 +2627,22 @@ a[href^="https://maps.google.com/maps"] {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1em;
-  border-bottom: 1px solid #A5BFEB;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  border-bottom: 1px solid #a5bfeb;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-solution-style-one:hover span {
-  color: #E8F3FF;
+  color: #e8f3ff;
 }
 
 .single-solution-style-one:hover h3 a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .single-solution-style-one:hover .read-more {
-  border-color: #97B9EB;
-  color: #E8F3FF;
+  border-color: #97b9eb;
+  color: #e8f3ff;
 }
 
 .solution-style-two {
@@ -2536,7 +2656,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   right: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .solution-style-two .solution-content {
@@ -2558,13 +2678,13 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-solution-style-two {
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 8px;
   padding: 20px 0;
   padding-left: 30px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  background: #FFFFFF;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background: #ffffff;
 }
 
 .single-solution-style-two + .single-solution-style-two {
@@ -2582,13 +2702,13 @@ a[href^="https://maps.google.com/maps"] {
   width: 60px;
   height: 60px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 800;
   line-height: 60px;
   border-radius: 50%;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-solution-style-two .text-box {
@@ -2600,7 +2720,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-solution-style-two:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(204, 215, 224, 0.3);
 }
 
 .single-solution-style-two:hover .count-box .inner-box {
@@ -2618,12 +2738,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-solution-style-three .image-box:hover > img {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 .single-solution-style-three .image-box img {
   width: 100%;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -2640,15 +2760,15 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: rgba(0, 19, 40, 0.6);
   opacity: 0;
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   -webkit-transition: all 0.6s ease-in-out 0.3s;
   transition: all 0.6s ease-in-out 0.3s;
 }
@@ -2662,25 +2782,25 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 65px;
   height: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   color: #001328;
   font-size: 12px;
   line-height: 40px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-solution-style-three .box a i.fa:hover {
   color: #fff;
-  background: #1371D6;
+  background: #1371d6;
 }
 .single-solution-style-three .image-box:hover .box {
   opacity: 1;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .video-box-style-four.solutions-details-page:before {
@@ -2723,10 +2843,10 @@ a[href^="https://maps.google.com/maps"] {
   width: 0;
   background: #ee3234;
   height: 2px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.solutions-tab-one .tab-title li a i[class*=payonline-icon] {
+.solutions-tab-one .tab-title li a i[class*='payonline-icon'] {
   font-size: 72px;
   color: #0f6fd5;
 }
@@ -2737,7 +2857,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   margin-top: 21px;
 }
-.solutions-tab-one .tab-title li a:hover:before, .solutions-tab-one .tab-title li a.active:before {
+.solutions-tab-one .tab-title li a:hover:before,
+.solutions-tab-one .tab-title li a.active:before {
   width: 100%;
 }
 .solutions-tab-one .single-tab-content-two .sec-title {
@@ -2848,13 +2969,13 @@ a[href^="https://maps.google.com/maps"] {
   height: 150px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
-          box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
+  box-shadow: 0px 25px 30px 0px rgba(15, 111, 213, 0.15);
   display: inline-block;
   text-align: center;
   position: relative;
   background: #ee3234;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   margin-bottom: 40px;
 }
 .single-solution-style-four .icon-box:after {
@@ -2866,12 +2987,18 @@ a[href^="https://maps.google.com/maps"] {
   bottom: -1px;
   border-radius: 50%;
   background: #f1f7fc;
-  background: -webkit-gradient(linear, left top, right top, from(#f1f7fc), to(#ffffff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f1f7fc),
+    to(#ffffff)
+  );
   background: linear-gradient(to right, #f1f7fc 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$thm_gray', endColorstr='#ffffff', GradientType=1);
   opacity: 1;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-solution-style-four .icon-box i {
   font-size: 72px;
@@ -2879,8 +3006,8 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   z-index: 10;
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-solution-style-four .icon-box:before {
   content: '';
@@ -2893,8 +3020,8 @@ a[href^="https://maps.google.com/maps"] {
   left: 50%;
   -webkit-transform: translate(-60%, -50%);
   transform: translate(-60%, -50%);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   z-index: 10;
 }
 .single-solution-style-four h3,
@@ -2928,23 +3055,27 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-solution-style-four .read-more:hover {
   color: #001328;
 }
-.single-solution-style-four:hover .icon-box, .single-solution-style-four.active .icon-box {
+.single-solution-style-four:hover .icon-box,
+.single-solution-style-four.active .icon-box {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
 }
-.single-solution-style-four:hover .icon-box i, .single-solution-style-four.active .icon-box i {
+.single-solution-style-four:hover .icon-box i,
+.single-solution-style-four.active .icon-box i {
   color: #fff;
 }
-.single-solution-style-four:hover .icon-box:before, .single-solution-style-four.active .icon-box:before {
+.single-solution-style-four:hover .icon-box:before,
+.single-solution-style-four.active .icon-box:before {
   opacity: 0;
 }
-.single-solution-style-four:hover .icon-box:after, .single-solution-style-four.active .icon-box:after {
+.single-solution-style-four:hover .icon-box:after,
+.single-solution-style-four.active .icon-box:after {
   opacity: 0;
 }
 .single-solution-style-four.active:after {
@@ -2983,10 +3114,11 @@ a[href^="https://maps.google.com/maps"] {
   border: 1px solid #ccd7e0 !important;
   line-height: 60px;
   border-radius: 30px !important;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.solution-size-tab-wrapper .tab-title li a:hover, .solution-size-tab-wrapper .tab-title li a.active {
+.solution-size-tab-wrapper .tab-title li a:hover,
+.solution-size-tab-wrapper .tab-title li a.active {
   border-color: #ee3234 !important;
   color: #fff;
   background: #ee3234;
@@ -3032,15 +3164,15 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-easy-step-one h3 a {
   color: #fff;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-easy-step-one h3 a:hover {
   color: #ee3234;
 }
 
 .single-easy-step-one p {
-  color: #E8F3FF;
+  color: #e8f3ff;
   font-size: 18px;
   line-height: 34px;
   font-weight: 600;
@@ -3062,8 +3194,8 @@ a[href^="https://maps.google.com/maps"] {
   border-radius: 20px;
   text-align: center;
   margin-bottom: 15px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-easy-step-one .read-more i {
@@ -3073,7 +3205,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-easy-step-one .read-more:hover {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .single-easy-step-one .read-more:hover i {
@@ -3082,7 +3214,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-easy-step-one .step-count {
   font-family: 'Covered By Your Grace';
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
 }
 
@@ -3098,13 +3230,13 @@ a[href^="https://maps.google.com/maps"] {
 .client-carousel-one i {
   font-size: 126px;
   color: #0f6fd5;
-  opacity: .3;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  opacity: 0.3;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .client-carousel-one img {
-  opacity: .3;
-  transition: all .4s ease;
+  opacity: 0.3;
+  transition: all 0.4s ease;
 }
 
 .client-carousel-one i:hover {
@@ -3129,8 +3261,8 @@ a[href^="https://maps.google.com/maps"] {
 .client-style-one.home-two .client-carousel-one img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: .5;
-  transition: all .4s ease;
+  opacity: 0.5;
+  transition: all 0.4s ease;
 }
 .client-style-one.home-two .client-carousel-one img:hover {
   opacity: 1;
@@ -3154,9 +3286,9 @@ a[href^="https://maps.google.com/maps"] {
 .client-carousel-two i {
   font-size: 150px;
   color: #001328;
-  opacity: .3;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  opacity: 0.3;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .client-carousel-two i:hover {
   opacity: 1;
@@ -3164,8 +3296,8 @@ a[href^="https://maps.google.com/maps"] {
 .client-carousel-two img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: .5;
-  transition: all .4s ease;
+  opacity: 0.5;
+  transition: all 0.4s ease;
 }
 .client-carousel-two img:hover {
   opacity: 1;
@@ -3201,11 +3333,11 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: rgba(0, 19, 40, 0.5);
 }
 
@@ -3220,21 +3352,21 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 115px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px;
   color: #001328;
   font-size: 16px;
   line-height: 60px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .video-box-style-one .box a i.fa-play:hover {
   color: #fff;
-  background: #1371D6;
+  background: #1371d6;
 }
 
 .video-box-style-one .box a .btn-tag-line {
@@ -3244,7 +3376,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 100%;
   -webkit-transform: translateX(-65%);
   transform: translateX(-65%);
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Covered By Your Grace';
   font-size: 20px;
 }
@@ -3359,7 +3491,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   color: #ee3234;
 }
 .video-box-style-four .video-box {
@@ -3384,11 +3516,11 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: rgba(0, 19, 40, 0.5);
 }
 .video-box-style-four .video-box .box a {
@@ -3401,20 +3533,20 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 115px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px;
   color: #001328;
   font-size: 16px;
   line-height: 60px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .video-box-style-four .video-box .box a i.fa-play:hover {
   color: #fff;
-  background: #1371D6;
+  background: #1371d6;
 }
 .video-box-style-four .video-box .box a .btn-tag-line {
   position: absolute;
@@ -3423,7 +3555,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 100%;
   -webkit-transform: translateX(-65%);
   transform: translateX(-60%);
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Covered By Your Grace';
   font-size: 20px;
 }
@@ -3442,7 +3574,8 @@ a[href^="https://maps.google.com/maps"] {
 * 12. subscribe styles 
 ***************************/
 .subscribe-form {
-  background: #0f6fd5 url(../images/subscribe-bg-1-1.jpg) center center no-repeat;
+  background: #0f6fd5 url(../images/subscribe-bg-1-1.jpg) center center
+    no-repeat;
   background-size: cover;
   border-radius: 6px;
   padding: 58px;
@@ -3453,7 +3586,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .subscribe-form h3 {
   margin: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 48px;
@@ -3465,7 +3598,7 @@ a[href^="https://maps.google.com/maps"] {
   background-color: transparent;
   width: 100%;
   max-width: 290px;
-  background: #FFFFFF;
+  background: #ffffff;
   height: 60px;
   border-radius: 30px;
   color: #798593;
@@ -3490,8 +3623,8 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -3505,14 +3638,14 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .expertize-box-one h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 40px;
   line-height: 36px;
   font-weight: 800;
 }
 
 .expertize-box-one p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   margin-top: 13px;
@@ -3521,7 +3654,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .expertize-box-one a {
   font-weight: 800;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-size: 12px;
@@ -3618,12 +3751,12 @@ a[href^="https://maps.google.com/maps"] {
   border-radius: 6px;
   background: #0f6fd5;
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform-origin: bottom center;
 }
 
 .single-blog-style-one .text-box:hover:before {
   -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
 }
 
 .single-blog-style-one .text-box h3 {
@@ -3636,16 +3769,16 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-blog-style-one .text-box h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-blog-style-one .text-box .meta-info {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 15px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-blog-style-one .text-box .meta-info .sep {
@@ -3655,8 +3788,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-blog-style-one .text-box .meta-info a {
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-blog-style-one .text-box .read-more {
@@ -3666,8 +3799,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-blog-style-one .text-box:hover .meta-info,
@@ -3684,13 +3817,13 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-blog-style-one .image-box:hover > img {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .single-blog-style-one .image-box img {
   width: 100%;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -3708,22 +3841,22 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background: rgba(0, 19, 40, 0.6);
   opacity: 0;
   -webkit-transform: scale(2);
-          transform: scale(2);
+  transform: scale(2);
   -webkit-transition: all 0.6s ease-in-out 0.3s;
   transition: all 0.6s ease-in-out 0.3s;
 }
 
 .single-blog-style-one:hover .box {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .single-blog-style-one .box a {
@@ -3737,21 +3870,21 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 65px;
   height: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   color: #001328;
   font-size: 12px;
   line-height: 40px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-blog-style-one .box a i.fa:hover {
   color: #fff;
-  background: #1371D6;
+  background: #1371d6;
 }
 
 .single-blog-style-one .image-box:hover .box {
@@ -3772,17 +3905,18 @@ a[href^="https://maps.google.com/maps"] {
   height: 60px;
   background: #ccd7e0;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   line-height: 60px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   font-weight: 800;
 }
-.news-page .post-pagination a:hover, .news-page .post-pagination a.active {
+.news-page .post-pagination a:hover,
+.news-page .post-pagination a.active {
   background: #ee3234;
   -webkit-box-shadow: 0px 10px 30px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px rgba(238, 50, 52, 0.3);
+  box-shadow: 0px 10px 30px rgba(238, 50, 52, 0.3);
 }
 .news-page .post-pagination a + a {
   margin-left: 10px;
@@ -3833,8 +3967,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 35px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .text-block .meta-info .sep {
   margin-left: 10px;
@@ -3842,8 +3976,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-blog-page .text-block .meta-info a {
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .text-block p {
   font-size: 18px;
@@ -3872,8 +4006,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-blog-page .share-block .tags-block a {
   color: #798593;
   margin-left: 6px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .share-block .tags-block a:hover {
   color: #0f6fd5;
@@ -3881,8 +4015,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-blog-page .share-block .social-block a {
   font-size: 22px;
   color: #798593;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   display: inline-block;
   vertical-align: middle;
 }
@@ -3937,8 +4071,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .author-block .author-text-block .read-more:hover {
   color: #001328;
@@ -3968,8 +4102,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 0px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .single-comment-block .comment-text-block .meta-info .sep {
   margin-left: 10px;
@@ -3977,8 +4111,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-blog-page .single-comment-block .comment-text-block .meta-info a {
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-blog-page .single-comment-block .comment-text-block h3,
 .single-blog-page .single-comment-block .comment-text-block p {
@@ -4030,10 +4164,13 @@ a[href^="https://maps.google.com/maps"] {
   margin-bottom: 50px;
 }
 
-.cta-one-content .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.cta-one-content
+  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(
+    .input-group-btn
+  ) {
   width: 100%;
   max-width: 470px;
-  border: 2px solid #CCD7E0;
+  border: 2px solid #ccd7e0;
   border-radius: 30px;
   margin-bottom: 20px;
 }
@@ -4058,7 +4195,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 66px;
   height: 60px;
   text-align: center;
-  border-left: 2px solid #CCD7E0;
+  border-left: 2px solid #ccd7e0;
   position: absolute;
   top: 0;
   right: 0;
@@ -4086,7 +4223,7 @@ a[href^="https://maps.google.com/maps"] {
   text-align: center;
 }
 
-[class*=cta-block-] {
+[class*='cta-block-'] {
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4094,7 +4231,7 @@ a[href^="https://maps.google.com/maps"] {
   padding: 119.5px 0;
 }
 
-[class*=cta-block-]:before {
+[class*='cta-block-']:before {
   content: '';
   position: absolute;
   top: 0;
@@ -4104,29 +4241,29 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .cta-block-one:before {
-  opacity: .75;
+  opacity: 0.75;
   background: #001328;
 }
 
 .cta-block-two:before {
-  opacity: .8;
+  opacity: 0.8;
   background: #0f6fd5;
 }
 
-[class*=cta-block-] .inner-box {
+[class*='cta-block-'] .inner-box {
   position: relative;
 }
 
-[class*=cta-block-] h3 {
-  color: #FFFFFF;
+[class*='cta-block-'] h3 {
+  color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-[class*=cta-block-] .btn-box .btn-tag-line {
+[class*='cta-block-'] .btn-box .btn-tag-line {
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   font-family: 'Covered By Your Grace';
   letter-spacing: 0;
@@ -4134,7 +4271,7 @@ a[href^="https://maps.google.com/maps"] {
   margin-top: 15px;
 }
 
-[class*=cta-block-] .btn-box .btn-tag-line i {
+[class*='cta-block-'] .btn-box .btn-tag-line i {
   display: inline-block;
   -webkit-transform: rotate(-85deg) scale(1, -1) translate(3px, 0px);
   transform: rotate(-85deg) scale(1, -1) translate(3px, 0px);
@@ -4181,7 +4318,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #ee3234;
   width: 100%;
   border-radius: 6px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 600;
   display: block;
@@ -4189,10 +4326,10 @@ a[href^="https://maps.google.com/maps"] {
   padding: 38px 0;
   padding-left: 85px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
   text-align: left;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   width: 100%;
   max-width: 340px;
 }
@@ -4200,7 +4337,7 @@ a[href^="https://maps.google.com/maps"] {
 .cta-three .cta-btn.two {
   background: #0f6fd5;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
   margin-top: 30px;
 }
 
@@ -4245,7 +4382,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 42px;
   text-align: center;
   background: #ffffff;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   line-height: 109px;
 }
 
@@ -4288,7 +4425,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .cta-four h3 {
   margin: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
   font-size: 40px;
 }
@@ -4301,10 +4438,10 @@ a[href^="https://maps.google.com/maps"] {
   top: calc(100% + 20px);
   left: 50%;
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 .cta-four .btn-box .btn-tag-line {
-  color: #DBEAFB;
+  color: #dbeafb;
   font-size: 20px;
   font-family: 'Covered By Your Grace';
   letter-spacing: 0;
@@ -4325,7 +4462,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .cta-five .cta-content p {
   margin: 0;
-  color: #DBEAFB;
+  color: #dbeafb;
   font-size: 18px;
   font-weight: 600;
   line-height: 34px;
@@ -4333,7 +4470,7 @@ a[href^="https://maps.google.com/maps"] {
   margin-bottom: 40px;
 }
 .cta-five .cta-content a.read-more {
-  color: #DBEAFB;
+  color: #dbeafb;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -4360,7 +4497,7 @@ a[href^="https://maps.google.com/maps"] {
   margin-bottom: 30px;
 }
 .cta-five .single-cta-box h3 a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .cta-five .single-cta-box p {
   color: #fff;
@@ -4405,7 +4542,7 @@ a[href^="https://maps.google.com/maps"] {
 .cta-seven span {
   text-transform: uppercase;
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
 }
 .cta-seven h3 {
@@ -4413,7 +4550,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 22px;
   line-height: 34px;
   font-weight: 800;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 69%;
   margin-left: auto;
   margin-right: auto;
@@ -4439,7 +4576,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .footer-widget .title-box h3 {
   margin: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 20px;
@@ -4457,10 +4594,10 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .footer-widget .social a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .footer-widget .social a:hover {
@@ -4482,7 +4619,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .footer-widget ul.link-lists li a {
-  color: #DBE9FA;
+  color: #dbe9fa;
   font-size: 16px;
   font-weight: 700;
   display: block;
@@ -4500,8 +4637,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateY(-50%) translateX(10px);
   transform: translateY(-50%) translateX(10px);
   opacity: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .footer-widget ul.link-lists li:hover a:after {
@@ -4516,7 +4653,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .footer-widget .btn-box .btn-tag-line {
   display: block;
-  color: #DBEAFB;
+  color: #dbeafb;
   font-size: 20px;
   font-family: 'Covered By Your Grace';
   letter-spacing: 0;
@@ -4533,7 +4670,7 @@ a[href^="https://maps.google.com/maps"] {
 .site-footer .bottom-footer p {
   margin: 0;
   text-align: center;
-  color: #DBEAFB;
+  color: #dbeafb;
   font-size: 16px;
   font-weight: 600;
   border-top: 2px solid rgba(255, 255, 255, 0.05);
@@ -4542,9 +4679,9 @@ a[href^="https://maps.google.com/maps"] {
 
 .site-footer .bottom-footer p a {
   text-decoration: underline;
-  color: #DBEAFB;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  color: #dbeafb;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .site-footer .bottom-footer p a:hover {
@@ -4563,7 +4700,7 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   border-radius: 6px;
   overflow: hidden;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
 }
 
 .single-sales-point .map-box .google-map {
@@ -4584,13 +4721,13 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-sales-point:hover {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
 }
 
 .single-sales-point:hover .text-box {
@@ -4638,7 +4775,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .sales-carousel .owl-dots .owl-dot span {
   margin: 0 2.5px;
-  background: #919CA7;
+  background: #919ca7;
 }
 
 .sales-carousel .owl-dots .owl-dot.active span {
@@ -4646,7 +4783,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .payonline-sales-point.home-six {
-  background: #001328 url(../images/sales-point-bg.jpg) center center no-repeat fixed;
+  background: #001328 url(../images/sales-point-bg.jpg) center center no-repeat
+    fixed;
   background-size: cover;
   position: relative;
 }
@@ -4658,7 +4796,7 @@ a[href^="https://maps.google.com/maps"] {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .85;
+  opacity: 0.85;
 }
 .payonline-sales-point.home-six .container {
   position: relative;
@@ -4709,7 +4847,7 @@ a[href^="https://maps.google.com/maps"] {
   top: calc(100% + 20px);
   left: 50%;
   -webkit-transform: translateX(-10%);
-          transform: translateX(-10%);
+  transform: translateX(-10%);
   color: #798593;
   font-size: 20px;
   font-family: 'Covered By Your Grace';
@@ -4718,7 +4856,7 @@ a[href^="https://maps.google.com/maps"] {
 .top-location-block .text-block .btn-box .btn-tag-line i {
   display: inline-block;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   margin-right: 10px;
 }
 .top-location-block .contact-info {
@@ -4768,8 +4906,8 @@ a[href^="https://maps.google.com/maps"] {
   color: #001328;
   display: inline-block;
   vertical-align: middle;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .top-location-block .contact-info .social a + a {
   margin-left: 34px;
@@ -4803,10 +4941,10 @@ a[href^="https://maps.google.com/maps"] {
   right: 0;
   bottom: 0;
   background: #001328;
-  opacity: .6;
+  opacity: 0.6;
   border-radius: 50%;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   -webkit-transform: scale(0);
   transform: scale(0);
 }
@@ -4830,21 +4968,21 @@ a[href^="https://maps.google.com/maps"] {
   display: inline-block;
   width: 60px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 50%;
   color: #001328;
   font-size: 18px;
   line-height: 60px;
   text-align: center;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-team-style-one:hover .top-box .social a {
   background: #0f6fd5;
   color: #fff;
   -webkit-box-shadow: 5px 9px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 5px 9px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 5px 9px 30px 0px rgba(15, 111, 213, 0.3);
 }
 
 .single-team-style-one .text-box {
@@ -4855,8 +4993,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-team-style-one .text-box h3,
 .single-team-style-one .text-box p {
   margin: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-team-style-one .text-box h3 {
@@ -4890,14 +5028,20 @@ a[href^="https://maps.google.com/maps"] {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#001328), to(#0f6fd5));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#001328),
+    to(#0f6fd5)
+  );
   background: linear-gradient(to bottom, #001328 0%, #0f6fd5 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001328', endColorstr='#0f6fd5', GradientType=0);
   /* IE6-9 */
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
-  opacity: .85;
+  transform-origin: bottom center;
+  opacity: 0.85;
 }
 .single-team-style-two .box {
   position: absolute;
@@ -4912,12 +5056,12 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   padding: 60px;
   z-index: 10;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   opacity: 0;
 }
 .single-team-style-two .box h3 {
@@ -4942,8 +5086,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-team-style-two .box .social a {
   font-size: 16px;
   color: #fff;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-team-style-two .box .social a:hover {
   color: #ee3234;
@@ -4953,7 +5097,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-team-style-two:hover:before {
   -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
 }
 .single-team-style-two:hover .box {
   opacity: 1;
@@ -4984,8 +5128,8 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-testimonial-one .text-box .payonline-icon-left-quotes-sign {
   font-size: 103px;
-  color: #FFFFFF;
-  opacity: .05;
+  color: #ffffff;
+  opacity: 0.05;
   position: absolute;
   top: -15px;
   left: 20px;
@@ -4997,14 +5141,14 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-testimonial-one .text-box p {
-  color: #DBE9FA;
+  color: #dbe9fa;
   font-size: 22px;
   line-height: 40px;
   font-weight: 600;
 }
 
 .single-testimonial-one .text-box h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 800;
   font-size: 18px;
   margin-top: 45px;
@@ -5025,8 +5169,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .testimonials-carousel.owl-theme .owl-dots .owl-dot span {
-  background: #DBE9FA;
-  opacity: .4;
+  background: #dbe9fa;
+  opacity: 0.4;
   margin: 0;
 }
 
@@ -5037,7 +5181,7 @@ a[href^="https://maps.google.com/maps"] {
 .testimonials-style-two .bx-wrapper {
   border: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   margin: 0;
 }
 
@@ -5060,7 +5204,7 @@ a[href^="https://maps.google.com/maps"] {
 .single-testimonial-two:before {
   content: '';
   background: #001328;
-  opacity: .8;
+  opacity: 0.8;
   position: absolute;
   top: 0;
   left: 0;
@@ -5078,7 +5222,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-testimonial-two .text-box p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 30px;
   line-height: 46px;
   font-weight: 700;
@@ -5102,7 +5246,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .single-testimonial-two .text-box ul li {
-  color: #DBE9FA;
+  color: #dbe9fa;
   font-size: 18px;
   line-height: 34px;
   font-weight: 700;
@@ -5131,16 +5275,16 @@ a[href^="https://maps.google.com/maps"] {
   line-height: 60px;
   text-align: center;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-testimonial-two .video-popup-box .video-popup i.fa-play:hover {
   color: #fff;
   background: #0f6fd5;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
 }
 
 .single-testimonial-two .video-popup-box .video-popup .btn-tag-line {
@@ -5150,7 +5294,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 100%;
   -webkit-transform: translateX(-70%);
   transform: translateX(-70%);
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Covered By Your Grace';
   font-size: 20px;
 }
@@ -5174,12 +5318,12 @@ a[href^="https://maps.google.com/maps"] {
 
 #testi-pager img {
   width: 100%;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 #testi-pager .pager-item.active img {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .single-testimonial-style-three {
@@ -5191,24 +5335,24 @@ a[href^="https://maps.google.com/maps"] {
   padding-top: 50px;
   padding-bottom: 60px;
   position: relative;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-testimonial-style-three:before {
   border-radius: 7px;
   background: #0f6fd5;
   -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
+  transform-origin: center bottom;
 }
 .single-testimonial-style-three i {
   font-size: 103px;
   color: #001328;
-  opacity: .05;
+  opacity: 0.05;
   position: absolute;
   top: -20px;
   left: 20px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-testimonial-style-three p,
 .single-testimonial-style-three h3 {
@@ -5220,15 +5364,15 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 600;
   color: #798593;
   margin-bottom: 30px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-testimonial-style-three h3 {
   font-size: 18px;
   color: #0f6fd5;
   font-weight: 800;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-testimonial-style-three .client-box {
   border-top: 2px solid #ffffff;
@@ -5247,11 +5391,11 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-testimonial-style-three:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px rgba(15, 111, 213, 0.3);
 }
 .single-testimonial-style-three:hover:before {
   -webkit-transform-origin: center top;
-          transform-origin: center top;
+  transform-origin: center top;
 }
 .single-testimonial-style-three:hover p,
 .single-testimonial-style-three:hover h3 {
@@ -5263,7 +5407,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .testimonials-carousel-two .owl-dots .owl-dot span {
   margin: 0 2.5px;
-  background: #919CA7;
+  background: #919ca7;
 }
 .testimonials-carousel-two .owl-dots .owl-dot.active span {
   background: #0f6fd5;
@@ -5287,7 +5431,7 @@ a[href^="https://maps.google.com/maps"] {
   padding: 0;
   border: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: transparent;
 }
 .testimonials-style-four #testi-pager-2 {
@@ -5304,10 +5448,10 @@ a[href^="https://maps.google.com/maps"] {
   opacity: 1;
 }
 .testimonials-style-four #testi-pager-2 img {
-  opacity: .4;
+  opacity: 0.4;
   border-radius: 50%;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .single-testimonial-four {
@@ -5334,7 +5478,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 12px;
   color: #707070;
   font-weight: 700;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 
 .testimonials-style-three.testimonials-page {
@@ -5415,7 +5559,7 @@ a[href^="https://maps.google.com/maps"] {
 .about-style-two .about-image-box img {
   border-radius: 7px;
   -webkit-box-shadow: 0px 10px 60px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 60px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 60px rgba(0, 19, 40, 0.3);
 }
 .about-style-two .about-image-box img.normal-img {
   display: block;
@@ -5427,8 +5571,8 @@ a[href^="https://maps.google.com/maps"] {
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   z-index: 2;
 }
 .about-style-two .about-image-box img.floated-img {
@@ -5559,20 +5703,20 @@ a[href^="https://maps.google.com/maps"] {
 
 .single-pricing-style-one.popular .top-box {
   -webkit-box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
 }
 
 .single-pricing-style-one.popular .thm-btn {
   background: #001328;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 19, 40, 0.3);
 }
 
 .single-pricing-style-one.popular .thm-btn:hover {
   background: #0f6fd5;
   color: #fff;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
-          box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(15, 111, 213, 0.3);
 }
 
 /************************** 
@@ -5588,7 +5732,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .review-block-one .review-content p {
-  color: #D8EAFF;
+  color: #d8eaff;
   font-size: 22px;
   line-height: 34px;
   margin: 0;
@@ -5627,7 +5771,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #ee3234;
   border-radius: 8px;
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
   font-weight: 800;
   position: absolute;
@@ -5637,7 +5781,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .faq-style-one .accrodion-grp .accrodion {
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 8px;
 }
 
@@ -5649,8 +5793,8 @@ a[href^="https://maps.google.com/maps"] {
   padding: 25.5px 35px;
   cursor: pointer;
   border-radius: 8px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .faq-style-one .accrodion-grp .accrodion .accrodion-title h4 {
@@ -5662,7 +5806,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .faq-style-one .accrodion-grp .accrodion .accrodion-title h4:after {
-  content: "\f067";
+  content: '\f067';
   font-family: 'FontAwesome';
   color: #001328;
   font-size: 14px;
@@ -5697,14 +5841,14 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .faq-style-one .accrodion-grp .accrodion.active .accrodion-title h4:after {
-  content: "\f068";
+  content: '\f068';
 }
 
 .single-faq-two {
   border: 1px solid #ccd7e0;
   border-radius: 7px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   padding: 55px 50px;
   overflow: hidden;
   position: relative;
@@ -5714,7 +5858,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 40px;
   height: 40px;
   background: #ee3234;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 40px;
   border-radius: 50%;
   font-size: 16px;
@@ -5729,8 +5873,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-faq-two h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-faq-two h3 a:hover {
   color: #0f6fd5;
@@ -5750,8 +5894,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-faq-two .read-more:hover {
   color: #0f6fd5;
@@ -5759,8 +5903,8 @@ a[href^="https://maps.google.com/maps"] {
 .single-faq-two .text-black {
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-faq-two .title-block {
   position: absolute;
@@ -5770,18 +5914,18 @@ a[href^="https://maps.google.com/maps"] {
   height: 100%;
   background: #fff;
   padding: 55px 50px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
   -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform-origin: bottom right;
   border-radius: 7px;
 }
 
 .single-faq-two:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
 }
 .single-faq-two:hover .text-black {
   visibility: visible;
@@ -5791,9 +5935,9 @@ a[href^="https://maps.google.com/maps"] {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(0, 0);
-          transform: scale(0, 0);
+  transform: scale(0, 0);
   -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
 }
 
 .faq-carousel-one .owl-dots {
@@ -5802,7 +5946,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .faq-carousel-one .owl-dots .owl-dot span {
   margin: 0 2.5px;
-  background: #919CA7;
+  background: #919ca7;
 }
 
 .faq-carousel-one .owl-dots .owl-dot.active span {
@@ -5861,7 +6005,7 @@ a[href^="https://maps.google.com/maps"] {
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 800;
   border: 10px solid #fff;
@@ -5897,11 +6041,11 @@ a[href^="https://maps.google.com/maps"] {
   margin-left: -5px;
   margin-right: -5px;
 }
-.meeting-form .row [class*=col-] {
+.meeting-form .row [class*='col-'] {
   padding-left: 5px;
   padding-right: 5px;
 }
-.meeting-form .row [class*=col-] + [class*=col-] {
+.meeting-form .row [class*='col-'] + [class*='col-'] {
   margin-top: 10px;
 }
 .meeting-form input,
@@ -5912,7 +6056,7 @@ a[href^="https://maps.google.com/maps"] {
   background-color: transparent;
   border-radius: 8px;
   height: 65px;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   font-size: 16px;
   font-weight: 600;
   color: #798593;
@@ -5955,21 +6099,21 @@ a[href^="https://maps.google.com/maps"] {
   letter-spacing: 0;
   margin-top: 20px;
   -webkit-transform: translateX(-100px);
-          transform: translateX(-100px);
+  transform: translateX(-100px);
 }
 .meeting-form .btn-box .btn-tag-line i {
   display: inline-block;
   -webkit-transform: rotate(-85deg) scale(1, -1) translate(6px, -9px);
-          transform: rotate(-85deg) scale(1, -1) translate(6px, -9px);
+  transform: rotate(-85deg) scale(1, -1) translate(6px, -9px);
   font-size: 27px;
 }
 
 .single-contact-page-info {
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 7px;
   padding: 60px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-contact-page-info .icon-box i {
   display: inline-block;
@@ -5992,7 +6136,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-contact-page-info:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
-          box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
+  box-shadow: 0px 10px 30px rgba(204, 215, 224, 0.3);
 }
 
 .contact-page-content .container {
@@ -6006,15 +6150,15 @@ a[href^="https://maps.google.com/maps"] {
   margin-left: -15px;
   margin-right: -15px;
 }
-.contact-form .row [class*=col-] {
+.contact-form .row [class*='col-'] {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 30px;
 }
-.contact-form .row [class*=col-]:last-child {
+.contact-form .row [class*='col-']:last-child {
   margin-bottom: 0;
 }
-.contact-form .row [class*=col-] + [class*=col-] {
+.contact-form .row [class*='col-'] + [class*='col-'] {
   margin-top: 0px;
 }
 .contact-form input.error,
@@ -6043,14 +6187,17 @@ a[href^="https://maps.google.com/maps"] {
   /* Firefox 18- */
   color: #fff;
 }
-.contact-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.contact-form
+  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(
+    .input-group-btn
+  ) {
   width: 100%;
 }
 .contact-form .bootstrap-select > .dropdown-toggle {
   border: none;
   outline: none !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   background-color: transparent;
   display: block;
   border: none;
@@ -6058,7 +6205,7 @@ a[href^="https://maps.google.com/maps"] {
   background-color: transparent;
   border-radius: 8px;
   height: 65px;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   font-size: 16px;
   font-weight: 600;
   color: #798593;
@@ -6082,7 +6229,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   right: 15px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .contact-form .btn-box {
   margin-top: 0;
@@ -6243,7 +6390,7 @@ a[href^="https://maps.google.com/maps"] {
   padding-right: 10px;
   font-size: 16px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 13px;
 }
 .time-line-style-one .tab-title li a:after {
@@ -6293,12 +6440,13 @@ a[href^="https://maps.google.com/maps"] {
   right: 0;
   bottom: 0;
   background: #001328;
-  opacity: .92;
+  opacity: 0.92;
 }
 .inner-banner .container {
   position: relative;
 }
-.inner-banner .container h1, .inner-banner .container ul {
+.inner-banner .container h1,
+.inner-banner .container ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6332,7 +6480,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .inner-banner .container h1 {
   font-size: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -6340,7 +6488,8 @@ a[href^="https://maps.google.com/maps"] {
   background: #f1f7fc;
   padding: 15px 0;
 }
-.inner-banner-two .container h1, .inner-banner-two .container ul {
+.inner-banner-two .container h1,
+.inner-banner-two .container ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6387,7 +6536,7 @@ a[href^="https://maps.google.com/maps"] {
   font-size: 400px;
   color: #001328;
   font-weight: 800;
-  line-height: .65em;
+  line-height: 0.65em;
 }
 .error-404-page h2 {
   font-size: 30px;
@@ -6459,7 +6608,7 @@ a[href^="https://maps.google.com/maps"] {
   background-color: transparent;
   border-radius: 8px;
   height: 65px;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   font-size: 16px;
   font-weight: 600;
   color: #798593;
@@ -6519,8 +6668,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .signin-wrapper .form-block .sign-up-link a {
   color: #0f6fd5;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .signin-wrapper .form-block .sign-up-link a:hover {
   color: #ee3234;
@@ -6538,8 +6687,8 @@ a[href^="https://maps.google.com/maps"] {
 .signin-wrapper .form-block .copy-text a {
   color: #0f6fd5;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .signin-wrapper .form-block .copy-text a:hover {
   color: #ee3234;
@@ -6662,7 +6811,8 @@ a[href^="https://maps.google.com/maps"] {
 .sidebar .single-sidebar + .single-sidebar {
   margin-top: 30px;
 }
-.sidebar .single-sidebar.search-widget, .sidebar .single-sidebar.subscribe-widget {
+.sidebar .single-sidebar.search-widget,
+.sidebar .single-sidebar.subscribe-widget {
   background: #0f6fd5;
 }
 .sidebar .single-sidebar .title-box {
@@ -6679,7 +6829,7 @@ a[href^="https://maps.google.com/maps"] {
   width: 100%;
 }
 .sidebar .single-sidebar .search-form input,
-.sidebar .single-sidebar .search-form button[type=submit] {
+.sidebar .single-sidebar .search-form button[type='submit'] {
   background-color: transparent;
   border: none;
   outline: none;
@@ -6688,34 +6838,40 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: bold;
 }
 .sidebar .single-sidebar .search-form input::-webkit-input-placeholder,
-.sidebar .single-sidebar .search-form button[type=submit]::-webkit-input-placeholder {
+.sidebar
+  .single-sidebar
+  .search-form
+  button[type='submit']::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #fff;
 }
 .sidebar .single-sidebar .search-form input::-moz-placeholder,
-.sidebar .single-sidebar .search-form button[type=submit]::-moz-placeholder {
+.sidebar .single-sidebar .search-form button[type='submit']::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
 }
 .sidebar .single-sidebar .search-form input:-ms-input-placeholder,
-.sidebar .single-sidebar .search-form button[type=submit]:-ms-input-placeholder {
+.sidebar
+  .single-sidebar
+  .search-form
+  button[type='submit']:-ms-input-placeholder {
   /* IE 10+ */
   color: #fff;
 }
 .sidebar .single-sidebar .search-form input:-moz-placeholder,
-.sidebar .single-sidebar .search-form button[type=submit]:-moz-placeholder {
+.sidebar .single-sidebar .search-form button[type='submit']:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
 }
 .sidebar .single-sidebar .search-form input {
   width: 100%;
 }
-.sidebar .single-sidebar .search-form button[type=submit] {
+.sidebar .single-sidebar .search-form button[type='submit'] {
   position: absolute;
   top: 50%;
   right: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .sidebar .single-sidebar .single-latest-post + .single-latest-post {
   border-top: 2px solid #fff;
@@ -6746,8 +6902,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .sidebar .single-sidebar .single-latest-post h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar .single-sidebar .single-latest-post h3 a:hover {
   color: #0f6fd5;
@@ -6758,8 +6914,8 @@ a[href^="https://maps.google.com/maps"] {
 .sidebar .single-sidebar ul.links-list li {
   display: block;
   padding: 0 20px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar .single-sidebar ul.links-list li a {
   color: #798593;
@@ -6768,8 +6924,8 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   display: block;
   padding: 14px 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar .single-sidebar ul.links-list li a:after {
   font-family: 'FontAwesome';
@@ -6778,15 +6934,17 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 0px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.sidebar .single-sidebar ul.links-list li:hover, .sidebar .single-sidebar ul.links-list li.active {
+.sidebar .single-sidebar ul.links-list li:hover,
+.sidebar .single-sidebar ul.links-list li.active {
   background: #fff;
 }
-.sidebar .single-sidebar ul.links-list li:hover a, .sidebar .single-sidebar ul.links-list li.active a {
+.sidebar .single-sidebar ul.links-list li:hover a,
+.sidebar .single-sidebar ul.links-list li.active a {
   color: #0f6fd5;
 }
 .sidebar .single-sidebar ul.tags-list li {
@@ -6816,19 +6974,31 @@ a[href^="https://maps.google.com/maps"] {
   border: none;
   outline: none;
 }
-.sidebar .single-sidebar.subscribe-widget .sidebar-subscribe-form input::-webkit-input-placeholder {
+.sidebar
+  .single-sidebar.subscribe-widget
+  .sidebar-subscribe-form
+  input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #798593;
 }
-.sidebar .single-sidebar.subscribe-widget .sidebar-subscribe-form input::-moz-placeholder {
+.sidebar
+  .single-sidebar.subscribe-widget
+  .sidebar-subscribe-form
+  input::-moz-placeholder {
   /* Firefox 19+ */
   color: #798593;
 }
-.sidebar .single-sidebar.subscribe-widget .sidebar-subscribe-form input:-ms-input-placeholder {
+.sidebar
+  .single-sidebar.subscribe-widget
+  .sidebar-subscribe-form
+  input:-ms-input-placeholder {
   /* IE 10+ */
   color: #798593;
 }
-.sidebar .single-sidebar.subscribe-widget .sidebar-subscribe-form input:-moz-placeholder {
+.sidebar
+  .single-sidebar.subscribe-widget
+  .sidebar-subscribe-form
+  input:-moz-placeholder {
   /* Firefox 18- */
   color: #798593;
 }
@@ -6864,8 +7034,8 @@ a[href^="https://maps.google.com/maps"] {
   padding: 0 20px;
   border: 1px solid #ccd7e0;
   border-radius: 7px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar-about .single-sidebar-about ul.page-lists li + li {
   margin-top: 5px;
@@ -6877,8 +7047,8 @@ a[href^="https://maps.google.com/maps"] {
   position: relative;
   display: block;
   padding: 14px 0;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar-about .single-sidebar-about ul.page-lists li a:after {
   font-family: 'FontAwesome';
@@ -6887,15 +7057,17 @@ a[href^="https://maps.google.com/maps"] {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: 0px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.sidebar-about .single-sidebar-about ul.page-lists li:hover, .sidebar-about .single-sidebar-about ul.page-lists li.active {
+.sidebar-about .single-sidebar-about ul.page-lists li:hover,
+.sidebar-about .single-sidebar-about ul.page-lists li.active {
   background: #fff;
 }
-.sidebar-about .single-sidebar-about ul.page-lists li:hover a, .sidebar-about .single-sidebar-about ul.page-lists li.active a {
+.sidebar-about .single-sidebar-about ul.page-lists li:hover a,
+.sidebar-about .single-sidebar-about ul.page-lists li.active a {
   color: #0f6fd5;
 }
 .sidebar-about .single-sidebar-about.cta-widget {
@@ -6913,7 +7085,8 @@ a[href^="https://maps.google.com/maps"] {
     padding: 40px;
   }
 }
-.sidebar-about .single-sidebar-about.cta-widget h3, .sidebar-about .single-sidebar-about.cta-widget p {
+.sidebar-about .single-sidebar-about.cta-widget h3,
+.sidebar-about .single-sidebar-about.cta-widget p {
   margin: 0;
   color: #fff;
 }
@@ -6943,7 +7116,7 @@ a[href^="https://maps.google.com/maps"] {
   background: #ee3234;
   width: 100%;
   border-radius: 6px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -6953,8 +7126,8 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
   box-shadow: 0px 10px 30px 0px rgba(238, 50, 52, 0.3);
   text-align: left;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .sidebar-about .single-sidebar-about.download-widget a.two {
   background: #0f6fd5;
@@ -7008,7 +7181,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-partner-box .icon-box .inner-box {
   display: block;
-  border: 1px solid #CCD7E0;
+  border: 1px solid #ccd7e0;
   border-radius: 7px;
   width: 270px;
   height: 225px;
@@ -7023,7 +7196,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-partner-box .icon-box .inner-box i {
   font-size: 150px;
-  color: #B2B8BE;
+  color: #b2b8be;
   line-height: 225px;
 }
 .single-partner-box .icon-box .inner-box img {
@@ -7071,8 +7244,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-partner-box .text-box .read-more:hover {
   color: #001328;
@@ -7168,7 +7341,8 @@ a[href^="https://maps.google.com/maps"] {
   right: 3px;
 }
 @media (max-width: 567px) {
-  .single-company-history .year-box:before, .single-company-history .year-box:after {
+  .single-company-history .year-box:before,
+  .single-company-history .year-box:after {
     display: none;
   }
 }
@@ -7264,7 +7438,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .careers-page .table-box-content {
   margin-top: 40px;
@@ -7343,15 +7517,15 @@ a[href^="https://maps.google.com/maps"] {
   margin-left: -30px;
   margin-right: -30px;
 }
-.job-details-page .job-details-table-outer .row [class*=col-] {
+.job-details-page .job-details-table-outer .row [class*='col-'] {
   padding-left: 30px;
   padding-right: 30px;
 }
-.job-details-page .job-details-table-outer .row [class*=col-]:first-child {
+.job-details-page .job-details-table-outer .row [class*='col-']:first-child {
   border-right: 2px solid #fff;
 }
 @media (max-width: 991px) {
-  .job-details-page .job-details-table-outer .row [class*=col-]:first-child {
+  .job-details-page .job-details-table-outer .row [class*='col-']:first-child {
     border: none;
   }
 }
@@ -7430,10 +7604,14 @@ a[href^="https://maps.google.com/maps"] {
   margin: 0;
   margin-bottom: 20px;
 }
-.job-details-page .single-job-detals-box .single-job-content + .single-job-content {
+.job-details-page
+  .single-job-detals-box
+  .single-job-content
+  + .single-job-content {
   margin-top: 30px;
 }
-.job-details-page .single-job-detals-box .single-job-content h4, .job-details-page .single-job-detals-box .single-job-content p {
+.job-details-page .single-job-detals-box .single-job-content h4,
+.job-details-page .single-job-detals-box .single-job-content p {
   margin: 0;
 }
 .job-details-page .single-job-detals-box .single-job-content h4 {
@@ -7544,8 +7722,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .single-investor-report-box .text-box h3 a {
   color: #001328;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .single-investor-report-box .text-box h3 a:hover {
   color: #ee3234;
@@ -7644,7 +7822,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 50%;
   right: -51px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   background: #fff;
   border: 2px solid #0f6fd5;
   width: 72px;
@@ -7662,7 +7840,7 @@ a[href^="https://maps.google.com/maps"] {
     top: auto;
     right: auto;
     -webkit-transform: translateY(0) translateX(-50%);
-            transform: translateY(0) translateX(-50%);
+    transform: translateY(0) translateX(-50%);
     bottom: -51px;
     left: 50%;
   }
@@ -7694,7 +7872,7 @@ a[href^="https://maps.google.com/maps"] {
   margin-left: -5px;
   margin-right: -5px;
 }
-.how-we-work-tab .low-gutter > [class*=col-] {
+.how-we-work-tab .low-gutter > [class*='col-'] {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -7730,10 +7908,11 @@ a[href^="https://maps.google.com/maps"] {
   border: 1px solid #ccd7e0 !important;
   line-height: 60px;
   border-radius: 30px !important;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
-.how-we-work-tab .tab-title li a:hover, .how-we-work-tab .tab-title li a.active {
+.how-we-work-tab .tab-title li a:hover,
+.how-we-work-tab .tab-title li a.active {
   border-color: #ee3234 !important;
   color: #fff;
   background: #ee3234;
@@ -7756,7 +7935,7 @@ a[href^="https://maps.google.com/maps"] {
   top: 0px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background: #0f6fd5;
   width: 72px;
   height: 72px;
@@ -7769,7 +7948,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 .how-we-work-tab .content-box .outer-box.equal-box {
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   top: 0;
   right: -36px;
   left: auto;
@@ -7780,7 +7959,7 @@ a[href^="https://maps.google.com/maps"] {
 @media (max-width: 1199px) {
   .how-we-work-tab .content-box .outer-box.equal-box {
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     top: auto;
     right: 0;
     left: 50%;
@@ -7865,8 +8044,8 @@ a[href^="https://maps.google.com/maps"] {
   font-weight: 800;
   line-height: 1em;
   text-decoration: underline;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .how-we-work-tab .content-box .text-box .read-more:hover {
   color: #001328;
