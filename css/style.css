@@ -94,7 +94,7 @@ a:visited {
 .sec-title span {
   display: block;
   text-transform: uppercase;
-  color: #0057b3;
+  color: #90b9e5;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -3222,7 +3222,7 @@ a[href^="https://maps.google.com/maps"]
 * 10. clients styles 
 ***************************/
 .client-style-one {
-  background: #f1f7fc;
+  background: #ffffff;
   padding: 89px 0;
   text-align: center;
 }
@@ -6426,7 +6426,7 @@ a[href^="https://maps.google.com/maps"]
 * 29. inner banner styles 
 ***************************/
 .inner-banner {
-  background: #001328 url(../images/inner-banner-1-1.jpg) center top no-repeat;
+  background: #bdd4ed url(../images/inner-banner-1-1.jpg) center top no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 262px;
